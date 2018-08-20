@@ -11,4 +11,15 @@ function produceDrivingRange(blockRange){
       return `${Math.abs(difference)} blocks out of range`
     }
   }
+
+  
+}
+
+function produceTipCalculator(percent) {
+  return function(fare) {
+    return percent * fare;
+  }
+  
+
+  
 }
